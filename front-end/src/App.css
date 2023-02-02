@@ -21,6 +21,26 @@
   width: 100%;
   background-color: skyblue;
 }
+.inputfield{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 2px solid skyblue;
+}
+.register{
+  margin-left: 30%;
+}
+.signup-btn{
+  margin: 25px;
+  padding: 10px;
+  background-color: skyblue;
+  border: none;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
