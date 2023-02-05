@@ -17,6 +17,7 @@
 .footer{
   position: absolute;
   bottom: 0;
+  color: white;
   text-align: center;
   width: 100%;
   background-color: skyblue;
@@ -44,6 +45,18 @@
   cursor: pointer;
   border-radius: 5px;
   font-weight: 600;
+}
+.nav-right{
+  text-align: right;
+}
+.nav-text{
+  width: 45px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 50px;
+  
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -10,6 +10,7 @@ const Nav = () => {
 
   return (
     <div>
+      <img  className="nav-text" alt="logo" src="https://cdn.acodez.in/wp-content/uploads/2017/11/MERN-stack-development.jpg"/>
       {auth ? (
         <ul className="nav-ul">
           <li>
@@ -26,12 +27,12 @@ const Nav = () => {
           </li>
           <li>
             <Link onClick={logout} to="/signup">
-              Logout
+              Logout ({JSON.parse(auth).name})
             </Link>
           </li>
         </ul>
       ) : (
-        <ul className="nav-ul">
+        <ul className="nav-ul nav-right">
           <li>
             <Link to="/signup">Sign Up</Link>
           </li>
