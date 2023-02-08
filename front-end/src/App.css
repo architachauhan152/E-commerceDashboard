@@ -71,7 +71,7 @@
 }
 .productlist ul li {
   display: inline-block;
-  border: 1px solid skyblue;
+  /* border: 1px solid skyblue; */
   padding: 5px;
   width: 150px;
 }
