@@ -71,12 +71,19 @@
 }
 .productlist ul li {
   display: inline-block;
-  /* border: 1px solid skyblue; */
+  border: 1px solid skyblue;
   padding: 5px;
   width: 150px;
 }
 .productlist ul {
   margin: 0;
+}
+.search-input{
+  width:300px;
+  margin:20px;
+  height: 15px;
+  border: 1px solid skyblue;
+  padding: 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
