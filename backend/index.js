@@ -63,7 +63,7 @@ app.put("/product/:id", async (req, res) => {
     {
       $set: req.body
     }
-  );
+  )
   res.send(result);
 });
 app.listen(5000);
